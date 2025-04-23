@@ -8,6 +8,7 @@ body{
     background: url(/images/bluebg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .container{
     width: 100%;
@@ -15,6 +16,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 .calculator{
@@ -50,12 +52,13 @@ form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    
 }
 
 form .display input{
     text-align: right;
     flex: 1;
-    font-size: 45px;
+    font-size: 20px;
     padding: 20px;
     box-shadow:
     0 6px 8px rgba(0, 0, 0, 0.3),      
